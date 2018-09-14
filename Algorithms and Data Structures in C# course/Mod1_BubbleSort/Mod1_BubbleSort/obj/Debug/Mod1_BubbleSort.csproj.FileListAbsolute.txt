@@ -1,0 +1,7 @@
+C:\Users\Alten\Desktop\Mod1_BubbleSort\Mod1_BubbleSort\bin\Debug\Mod1_BubbleSort.exe.config
+C:\Users\Alten\Desktop\Mod1_BubbleSort\Mod1_BubbleSort\bin\Debug\Mod1_BubbleSort.exe
+C:\Users\Alten\Desktop\Mod1_BubbleSort\Mod1_BubbleSort\bin\Debug\Mod1_BubbleSort.pdb
+C:\Users\Alten\Desktop\Mod1_BubbleSort\Mod1_BubbleSort\obj\Debug\Mod1_BubbleSort.csprojAssemblyReference.cache
+C:\Users\Alten\Desktop\Mod1_BubbleSort\Mod1_BubbleSort\obj\Debug\Mod1_BubbleSort.csproj.CoreCompileInputs.cache
+C:\Users\Alten\Desktop\Mod1_BubbleSort\Mod1_BubbleSort\obj\Debug\Mod1_BubbleSort.exe
+C:\Users\Alten\Desktop\Mod1_BubbleSort\Mod1_BubbleSort\obj\Debug\Mod1_BubbleSort.pdb

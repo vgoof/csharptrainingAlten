@@ -1,0 +1,7 @@
+C:\Users\Alten\Desktop\Mod1_CylinderCalculator\Mod1_CylinderCalculator\bin\Debug\Mod1_CylinderCalculator.exe.config
+C:\Users\Alten\Desktop\Mod1_CylinderCalculator\Mod1_CylinderCalculator\bin\Debug\Mod1_CylinderCalculator.exe
+C:\Users\Alten\Desktop\Mod1_CylinderCalculator\Mod1_CylinderCalculator\bin\Debug\Mod1_CylinderCalculator.pdb
+C:\Users\Alten\Desktop\Mod1_CylinderCalculator\Mod1_CylinderCalculator\obj\Debug\Mod1_CylinderCalculator.csprojAssemblyReference.cache
+C:\Users\Alten\Desktop\Mod1_CylinderCalculator\Mod1_CylinderCalculator\obj\Debug\Mod1_CylinderCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Alten\Desktop\Mod1_CylinderCalculator\Mod1_CylinderCalculator\obj\Debug\Mod1_CylinderCalculator.exe
+C:\Users\Alten\Desktop\Mod1_CylinderCalculator\Mod1_CylinderCalculator\obj\Debug\Mod1_CylinderCalculator.pdb
