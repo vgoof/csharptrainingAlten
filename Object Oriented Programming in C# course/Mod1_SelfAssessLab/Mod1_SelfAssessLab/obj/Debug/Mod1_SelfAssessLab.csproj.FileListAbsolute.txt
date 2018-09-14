@@ -1,0 +1,7 @@
+C:\Users\Alten\Desktop\Mod1_SelfAssessLab\Mod1_SelfAssessLab\bin\Debug\Mod1_SelfAssessLab.exe.config
+C:\Users\Alten\Desktop\Mod1_SelfAssessLab\Mod1_SelfAssessLab\bin\Debug\Mod1_SelfAssessLab.exe
+C:\Users\Alten\Desktop\Mod1_SelfAssessLab\Mod1_SelfAssessLab\bin\Debug\Mod1_SelfAssessLab.pdb
+C:\Users\Alten\Desktop\Mod1_SelfAssessLab\Mod1_SelfAssessLab\obj\Debug\Mod1_SelfAssessLab.csprojAssemblyReference.cache
+C:\Users\Alten\Desktop\Mod1_SelfAssessLab\Mod1_SelfAssessLab\obj\Debug\Mod1_SelfAssessLab.csproj.CoreCompileInputs.cache
+C:\Users\Alten\Desktop\Mod1_SelfAssessLab\Mod1_SelfAssessLab\obj\Debug\Mod1_SelfAssessLab.exe
+C:\Users\Alten\Desktop\Mod1_SelfAssessLab\Mod1_SelfAssessLab\obj\Debug\Mod1_SelfAssessLab.pdb

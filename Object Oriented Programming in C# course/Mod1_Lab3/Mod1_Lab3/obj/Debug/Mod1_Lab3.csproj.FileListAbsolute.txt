@@ -1,0 +1,6 @@
+C:\Users\Alten\Desktop\Mod1_Lab3\Mod1_Lab3\bin\Debug\Mod1_Lab3.exe.config
+C:\Users\Alten\Desktop\Mod1_Lab3\Mod1_Lab3\bin\Debug\Mod1_Lab3.exe
+C:\Users\Alten\Desktop\Mod1_Lab3\Mod1_Lab3\bin\Debug\Mod1_Lab3.pdb
+C:\Users\Alten\Desktop\Mod1_Lab3\Mod1_Lab3\obj\Debug\Mod1_Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Alten\Desktop\Mod1_Lab3\Mod1_Lab3\obj\Debug\Mod1_Lab3.exe
+C:\Users\Alten\Desktop\Mod1_Lab3\Mod1_Lab3\obj\Debug\Mod1_Lab3.pdb
