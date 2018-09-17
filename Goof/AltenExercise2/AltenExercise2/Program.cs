@@ -23,6 +23,25 @@ namespace AltenExercise2
 
             var bike = new Bicycle( );
 
+            var coll = new VehicleCollection<Vehicle>();
+            coll.Add(keroPlane);
+            coll.Add(electroPlane);
+            coll.Add(petrolCar);
+            coll.Add(dieselCar);
+            coll.Add(electroCar);
+            coll.Add(keroBoat);
+            coll.Add(dieselBoat);
+            coll.Add(electroBoat);
+            coll.Add(bike);
+
+            var allVehicles = coll.Get<Vehicle>();
+            var allVehiclesWithEngine = coll.Get<VehicleWithEngine>();
+            var allPlanes = coll.Get<Airplane>();
+            var allCars = coll.Get<Car>();
+            var allBikes = coll.Get<Bicycle>();
+            var allBoats = coll.Get<Ship>();
+
+
         }
     }
 }
