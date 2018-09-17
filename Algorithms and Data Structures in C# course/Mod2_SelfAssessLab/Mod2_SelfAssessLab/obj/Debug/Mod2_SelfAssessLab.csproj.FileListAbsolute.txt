@@ -5,3 +5,10 @@ C:\Users\Alten\Desktop\Mod2_SelfAssessLab\Mod2_SelfAssessLab\obj\Debug\Mod2_Self
 C:\Users\Alten\Desktop\Mod2_SelfAssessLab\Mod2_SelfAssessLab\obj\Debug\Mod2_SelfAssessLab.csproj.CoreCompileInputs.cache
 C:\Users\Alten\Desktop\Mod2_SelfAssessLab\Mod2_SelfAssessLab\obj\Debug\Mod2_SelfAssessLab.exe
 C:\Users\Alten\Desktop\Mod2_SelfAssessLab\Mod2_SelfAssessLab\obj\Debug\Mod2_SelfAssessLab.pdb
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod2_SelfAssessLab\Mod2_SelfAssessLab\bin\Debug\Mod2_SelfAssessLab.exe.config
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod2_SelfAssessLab\Mod2_SelfAssessLab\bin\Debug\Mod2_SelfAssessLab.exe
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod2_SelfAssessLab\Mod2_SelfAssessLab\bin\Debug\Mod2_SelfAssessLab.pdb
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod2_SelfAssessLab\Mod2_SelfAssessLab\obj\Debug\Mod2_SelfAssessLab.csprojAssemblyReference.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod2_SelfAssessLab\Mod2_SelfAssessLab\obj\Debug\Mod2_SelfAssessLab.csproj.CoreCompileInputs.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod2_SelfAssessLab\Mod2_SelfAssessLab\obj\Debug\Mod2_SelfAssessLab.exe
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod2_SelfAssessLab\Mod2_SelfAssessLab\obj\Debug\Mod2_SelfAssessLab.pdb

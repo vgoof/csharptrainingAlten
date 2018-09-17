@@ -20,6 +20,9 @@ namespace Mod2_SelfAssessLab
                 students[i].LastName = "Doe";
             }
 
+            Console.WriteLine($"the first student's name is {students[0].Name} {students[0].LastName}.");
+            Console.WriteLine($"the second student's name is {students[1].Name} {students[1].LastName}.");
+            Console.WriteLine($"the third student's name is {students[2].Name} {students[2].LastName}.");
         }
 
         struct Student
