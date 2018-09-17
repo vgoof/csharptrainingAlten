@@ -11,8 +11,9 @@ namespace AltenVehicleExercise
     {
         static void Main(string[] args)
         {
-            Car myCar = new Car("Volkswagen", "Polo");
-            Console.WriteLine($"My Car is a {myCar.BrandName}");
+            Engine myEngine = new Engine(150, 500);
+            Car myCar = new Car("Volkswagen", "Polo", myEngine);
+            Console.WriteLine($"My Car is a {myCar.BrandName} {myCar.ModelName}");
         }
     }
 }

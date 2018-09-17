@@ -10,13 +10,15 @@ namespace AltenVehicleExercise
     {
         private string m_brandName;
         private string m_modelName;
+        private Engine m_engine;
 
-        public Car(string brandName, string modelName) {
-            BrandName = brandName;
+        public Car(string brandName, string modelName, Engine engine) {
+            m_brandName = brandName;
             m_modelName = modelName;
+            m_engine = engine;
         }
 
-        public string BrandName { get => m_brandName; set => m_brandName = value; }
-
+        public string BrandName { get => m_brandName; }
+        public string ModelName { get => m_modelName; }
     }
 }
