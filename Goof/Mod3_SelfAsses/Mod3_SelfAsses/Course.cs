@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Mod3_SelfAsses
 {
-    class Course : IDisposable
+    class Course
     {
         private string m_name;
         private List<Student> m_studentList = new List<Student>();
         private Teacher m_Teacher;
-        //private List<Teacher> m_teacherList = new List<Teacher>();
-        private int m_studentCount = 0;
+        //private List<Teacher> m_teacherList = new List<Teacher>();    
         public Teacher[] teachers = new Teacher[10];
 
         public string Name { get => m_name; set => m_name = value; }
@@ -30,22 +29,18 @@ namespace Mod3_SelfAsses
 
         public void addStudent(Student newStudent) {
             m_studentList.Add(newStudent);
-            newStudent.addCourse(this);
-            m_studentCount++;
+            newStudent.addCourse(this);           
         }
            
 
         public int getStudentCount()
         {
-            return m_studentCount;
+            return m_studentList.Count;
         }
 
+        public override string ToString() { return Name; }
 
 
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
 

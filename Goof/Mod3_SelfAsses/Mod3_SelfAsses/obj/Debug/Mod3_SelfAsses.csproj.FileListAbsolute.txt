@@ -5,3 +5,10 @@ C:\Users\gweg\Documents\C# training\Mod3_Lab1\Mod3_SelfAsses\Mod3_SelfAsses\bin\
 C:\Users\gweg\Documents\C# training\Mod3_Lab1\Mod3_SelfAsses\Mod3_SelfAsses\bin\Debug\Mod3_SelfAsses.pdb
 C:\Users\gweg\Documents\C# training\Mod3_Lab1\Mod3_SelfAsses\Mod3_SelfAsses\obj\Debug\Mod3_SelfAsses.exe
 C:\Users\gweg\Documents\C# training\Mod3_Lab1\Mod3_SelfAsses\Mod3_SelfAsses\obj\Debug\Mod3_SelfAsses.pdb
+C:\Users\gweg\Documents\Projects\csharptrainingAlten\Goof\Mod3_SelfAsses\Mod3_SelfAsses\bin\Debug\Mod3_SelfAsses.exe.config
+C:\Users\gweg\Documents\Projects\csharptrainingAlten\Goof\Mod3_SelfAsses\Mod3_SelfAsses\bin\Debug\Mod3_SelfAsses.exe
+C:\Users\gweg\Documents\Projects\csharptrainingAlten\Goof\Mod3_SelfAsses\Mod3_SelfAsses\bin\Debug\Mod3_SelfAsses.pdb
+C:\Users\gweg\Documents\Projects\csharptrainingAlten\Goof\Mod3_SelfAsses\Mod3_SelfAsses\obj\Debug\Mod3_SelfAsses.csprojAssemblyReference.cache
+C:\Users\gweg\Documents\Projects\csharptrainingAlten\Goof\Mod3_SelfAsses\Mod3_SelfAsses\obj\Debug\Mod3_SelfAsses.csproj.CoreCompileInputs.cache
+C:\Users\gweg\Documents\Projects\csharptrainingAlten\Goof\Mod3_SelfAsses\Mod3_SelfAsses\obj\Debug\Mod3_SelfAsses.exe
+C:\Users\gweg\Documents\Projects\csharptrainingAlten\Goof\Mod3_SelfAsses\Mod3_SelfAsses\obj\Debug\Mod3_SelfAsses.pdb

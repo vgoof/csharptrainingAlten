@@ -24,6 +24,9 @@ namespace Mod3_SelfAsses
             course1.addStudent(student1);
             course1.addStudent(student2);
             course1.addStudent(student3);
+
+            Console.WriteLine("Student count is {0}", Student.studentCount);
+
             course1.Teacher = teacher1;
             course1.teachers[0] = teacher1;
             var degree1 = new Degree("Bachelor");
@@ -31,16 +34,33 @@ namespace Mod3_SelfAsses
 
             myProgram.addDegree(degree1);
             
-            student1.writeInfo();
-            teacher1.writeInfo();
+            student1.WriteInfo();
+            teacher1.WriteInfo();
 
             student1.whichCourse();
 
-
-
-            Console.WriteLine($"Program {myProgram.Name} contains the degree {myProgram.getDegree(0).Name}");
-            Console.WriteLine($"The degree {myProgram.getDegree(0).Name} contains the course {myProgram.getDegree(0).getCourse(0).Name}");
-            Console.WriteLine($"The course {myProgram.getDegree(0).getCourse(0).Name} contains {myProgram.getDegree(0).getCourse(0).getStudentCount()} students");
+            Print(myProgram);
+            Print(myProgram.getDegree(0));
+            Print(myProgram.getDegree(0).getCourse(0));
+           
+            
+            
         }
+
+        private static void Print(UProgram myProgram) {
+            Console.WriteLine($"Program {myProgram} contains the degree {myProgram.getDegree(0)}");
+        }
+
+        private static void Print(Degree degree) {
+            Console.WriteLine($"The degree {degree} contains the course {degree.getCourse(0)}");
+        }
+
+        private static void Print(Course course) {
+            Console.WriteLine($"The course {course} contains {course.getStudentCount()} students");
+        }
+
+
+
     }
+
 }

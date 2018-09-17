@@ -17,6 +17,10 @@ namespace Mod3_SelfAsses
             studentCount++;
         }
 
+        ~Student() {
+            studentCount--;
+        }
+
         public static int CountStudents() {
             return studentCount;
         }
@@ -34,8 +38,14 @@ namespace Mod3_SelfAsses
         }
 
         public void whichCourse() {
-            string coursename = m_course.Name;
-            Console.WriteLine(coursename);
+            if (m_course != null)
+            {
+                string coursename = m_course.Name;
+                Console.WriteLine(coursename);
+            }
+            else {            
+                Console.WriteLine("student is not taking a course");
+            }
         }
        
 

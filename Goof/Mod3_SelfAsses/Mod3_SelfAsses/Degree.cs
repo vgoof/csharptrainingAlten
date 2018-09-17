@@ -23,10 +23,20 @@ namespace Mod3_SelfAsses
 
         public Course getCourse(int indx)
         {
-            return m_courseList[indx];
+            if (indx < m_courseList.Count)
+            {
+                return m_courseList[indx];
+            }
+            else
+            {                
+                return null;
+            }
+       
         }
-       
-       
+
+        public override string ToString() { return Name; }
+
+
 
     }
 }

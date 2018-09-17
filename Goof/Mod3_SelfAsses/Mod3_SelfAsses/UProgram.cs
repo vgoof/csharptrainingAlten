@@ -22,7 +22,15 @@ namespace Mod3_SelfAsses
         }
 
         public Degree getDegree(int indx) {
-            return m_degreeList[indx];
+            if (indx < m_degreeList.Count)
+            {
+                return m_degreeList[indx];
+            }
+            else { return null; }
         }
+
+        public override string ToString() { return Name; }
+
+
     }
 }
