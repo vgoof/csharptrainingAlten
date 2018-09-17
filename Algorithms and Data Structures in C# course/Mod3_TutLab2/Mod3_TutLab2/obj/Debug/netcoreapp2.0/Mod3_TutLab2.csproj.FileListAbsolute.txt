@@ -1,0 +1,11 @@
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\bin\Debug\netcoreapp2.0\Mod3_TutLab2.deps.json
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\bin\Debug\netcoreapp2.0\Mod3_TutLab2.runtimeconfig.json
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\bin\Debug\netcoreapp2.0\Mod3_TutLab2.runtimeconfig.dev.json
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\bin\Debug\netcoreapp2.0\Mod3_TutLab2.dll
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\bin\Debug\netcoreapp2.0\Mod3_TutLab2.pdb
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\obj\Debug\netcoreapp2.0\Mod3_TutLab2.csprojAssemblyReference.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\obj\Debug\netcoreapp2.0\Mod3_TutLab2.csproj.CoreCompileInputs.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\obj\Debug\netcoreapp2.0\Mod3_TutLab2.AssemblyInfoInputs.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\obj\Debug\netcoreapp2.0\Mod3_TutLab2.AssemblyInfo.cs
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\obj\Debug\netcoreapp2.0\Mod3_TutLab2.dll
+C:\Users\mmourick\Repositories\csharptrainingAlten\Algorithms and Data Structures in C# course\Mod3_TutLab2\Mod3_TutLab2\obj\Debug\netcoreapp2.0\Mod3_TutLab2.pdb
