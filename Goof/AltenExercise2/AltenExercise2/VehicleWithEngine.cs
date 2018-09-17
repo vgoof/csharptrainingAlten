@@ -10,7 +10,7 @@ namespace AltenExercise2
     {
         private Engine m_engine;
 
-        internal Engine Engine { get => m_engine; set => m_engine = value; }
+        public Engine Engine { get => m_engine; private set => m_engine = value; }
 
         public void StartEngine()
         {

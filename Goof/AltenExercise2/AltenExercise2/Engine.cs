@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace AltenExercise2
 {
-    enum FuelType {
+    enum FuelType
+    {
         Kerosine,
         Petrol,
-        Diesel, 
+        Diesel,
         Electricity
     }
+
 
     enum EngineStatus {
         Running, 
@@ -21,7 +23,7 @@ namespace AltenExercise2
         InTheShop
     }
 
-    abstract class Engine
+    abstract public class Engine
     {
         private double m_fuelLevel = 0;
         private EngineStatus m_status = EngineStatus.TurnedOff;

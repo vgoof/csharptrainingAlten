@@ -8,6 +8,8 @@ namespace AltenExercise2
 {
     class Program
     {
+
+
         static void Main(string[] args)
         {
             // Make some vehicles
@@ -52,7 +54,12 @@ namespace AltenExercise2
             var allBoats = coll.Get<Ship>();
 
             // based on engine
-            //var allPetrolVehicles = coll.Get < Vehicle > => Engine = PetrolEngine; 
+            var allVehWithPetrolEngine = allVehicles.OfType<VehicleWithEngine>().Where(c => c.Engine is PetrolEngine);
+            var allVehWithRunningEngine = allVehicles.OfType<VehicleWithEngine>().Where(c =>  c.Engine.Status is EngineStatus.Running);
+            var allVehWithRunningPetrolEngine = allVehicles.OfType<VehicleWithEngine>().Where(c => c.Engine is PetrolEngine && c.Engine.Status is EngineStatus.Running);
+            var allCarsWithRunningEngine = allVehicles.OfType<Car>().Where(c => c.Engine.Status is EngineStatus.Running);
+            var allBoatsWithRunningEngine = allVehicles.OfType<Airplane>().Where(c =>  c.Engine.Status is EngineStatus.Running);
+            var allPlanesWithRunningEngine = allVehicles.OfType<Ship>().Where(c =>  c.Engine.Status is EngineStatus.Running);
 
         }
     }
