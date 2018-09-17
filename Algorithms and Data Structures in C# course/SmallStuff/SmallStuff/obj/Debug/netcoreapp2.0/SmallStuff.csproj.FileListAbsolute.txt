@@ -1,0 +1,11 @@
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\bin\Debug\netcoreapp2.0\SmallStuff.deps.json
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\bin\Debug\netcoreapp2.0\SmallStuff.runtimeconfig.json
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\bin\Debug\netcoreapp2.0\SmallStuff.runtimeconfig.dev.json
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\bin\Debug\netcoreapp2.0\SmallStuff.dll
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\bin\Debug\netcoreapp2.0\SmallStuff.pdb
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\obj\Debug\netcoreapp2.0\SmallStuff.csprojAssemblyReference.cache
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\obj\Debug\netcoreapp2.0\SmallStuff.csproj.CoreCompileInputs.cache
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\obj\Debug\netcoreapp2.0\SmallStuff.AssemblyInfoInputs.cache
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\obj\Debug\netcoreapp2.0\SmallStuff.AssemblyInfo.cs
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\obj\Debug\netcoreapp2.0\SmallStuff.dll
+C:\Users\mmourick\Repositories\SmallStuff\SmallStuff\obj\Debug\netcoreapp2.0\SmallStuff.pdb
