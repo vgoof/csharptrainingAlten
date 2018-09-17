@@ -8,16 +8,14 @@ using System.Threading.Tasks;
 namespace AltenExercise2
 {
     //public class VehicleCollection<T>: IEnumerable<T> where T : Vehicle
-    public class VehicleCollection<T> where T : Vehicle
+   // public class VehicleCollection<T> where T : Vehicle
+   // do I need T and where here? or would it be fine to just say Vehicle?
+   // Answer: just use Vehicle:), adding T here is maybe a bit shorter
+   public class VehicleCollection<Vehicle>
     {
-        private List<T> m_vehicles = new List<T>();
-
-        public void FillList(params T[] items)
-        {
-            foreach (var vehicle in items)
-                m_vehicles.Add(vehicle);
-        }
-        public void Add(T newVehicle) {
+        private List<Vehicle> m_vehicles = new List<Vehicle>();
+                
+        public void Add(Vehicle newVehicle) {
             m_vehicles.Add(newVehicle);
         }
 
@@ -25,19 +23,6 @@ namespace AltenExercise2
         {
             return m_vehicles.OfType<T>().ToList();
         }
-
-        //IEnumerator<T> IEnumerable<T>.GetEnumerator()
-        //{
-        //    foreach (var vehicle in m_vehicles)
-        //    {
-        //        yield return vehicle;
-        //    }
-        //}
-        //IEnumerator IEnumerable.GetEnumerator()
-        //{
-        //    throw new NotImplementedException();
-        //}
-
 
 
 

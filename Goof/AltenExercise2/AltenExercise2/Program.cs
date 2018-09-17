@@ -10,6 +10,7 @@ namespace AltenExercise2
     {
         static void Main(string[] args)
         {
+            // Make some vehicles
             var keroPlane = new Airplane(FuelType.Kerosine);
             var electroPlane = new Airplane(FuelType.Electricity);
 
@@ -23,6 +24,7 @@ namespace AltenExercise2
 
             var bike = new Bicycle( );
 
+            // Assign them to collection
             var coll = new VehicleCollection<Vehicle>();
             coll.Add(keroPlane);
             coll.Add(electroPlane);
@@ -34,6 +36,14 @@ namespace AltenExercise2
             coll.Add(electroBoat);
             coll.Add(bike);
 
+            // Start some egines
+            keroPlane.StartEngine();
+            dieselCar.StartEngine();
+            keroBoat.StartEngine();
+            electroBoat.StartEngine();
+
+
+            // Filter them
             var allVehicles = coll.Get<Vehicle>();
             var allVehiclesWithEngine = coll.Get<VehicleWithEngine>();
             var allPlanes = coll.Get<Airplane>();
@@ -41,6 +51,8 @@ namespace AltenExercise2
             var allBikes = coll.Get<Bicycle>();
             var allBoats = coll.Get<Ship>();
 
+            // based on engine
+            //var allPetrolVehicles = coll.Get < Vehicle > => Engine = PetrolEngine; 
 
         }
     }

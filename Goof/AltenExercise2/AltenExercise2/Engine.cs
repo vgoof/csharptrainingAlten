@@ -13,13 +13,22 @@ namespace AltenExercise2
         Electricity
     }
 
+    enum EngineStatus {
+        Running, 
+        Starting, 
+        TurnedOff, 
+        Dead,
+        InTheShop
+    }
 
     abstract class Engine
     {
         private double m_fuelLevel = 0;
-        FuelType m_fuel;
+        private EngineStatus m_status = EngineStatus.TurnedOff;
+        private FuelType m_fuel;
 
         internal FuelType Fuel { get => m_fuel; set => m_fuel = value; }
+        internal EngineStatus Status { get => m_status; set => m_status = value; }
 
         public void Accelerate()
         {
@@ -31,10 +40,12 @@ namespace AltenExercise2
 
         public void Start()
         {
+            Status = EngineStatus.Running;
         }
 
         public void Stop()
         {
+            Status = EngineStatus.TurnedOff;
         }
 
         public virtual double GetFuelLevel()
