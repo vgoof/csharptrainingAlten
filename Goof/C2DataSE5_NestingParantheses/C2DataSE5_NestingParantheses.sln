@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C2DataSE5_NestingParantheses", "C2DataSE5_NestingParantheses\C2DataSE5_NestingParantheses.csproj", "{8D684C0E-5B58-4371-AB25-3F1DEA0926AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D684C0E-5B58-4371-AB25-3F1DEA0926AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D684C0E-5B58-4371-AB25-3F1DEA0926AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D684C0E-5B58-4371-AB25-3F1DEA0926AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D684C0E-5B58-4371-AB25-3F1DEA0926AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56E99BB6-99AC-45DF-85FA-12E680BF74C7}
+	EndGlobalSection
+EndGlobal
