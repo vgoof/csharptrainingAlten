@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C2CollectionsTutorial2", "C2CollectionsTutorial2\C2CollectionsTutorial2.csproj", "{77F13AAF-5BC4-452B-A783-5111A82617FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F13AAF-5BC4-452B-A783-5111A82617FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F13AAF-5BC4-452B-A783-5111A82617FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F13AAF-5BC4-452B-A783-5111A82617FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F13AAF-5BC4-452B-A783-5111A82617FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E54F219F-A9E4-49B6-9091-B3B1983AAF15}
+	EndGlobalSection
+EndGlobal
