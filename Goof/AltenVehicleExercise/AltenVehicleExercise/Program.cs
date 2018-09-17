@@ -11,9 +11,21 @@ namespace AltenVehicleExercise
     {
         static void Main(string[] args)
         {
-            Engine myEngine = new Engine(150, 500);
-            Car myCar = new Car("Volkswagen", "Polo", myEngine);
+            CarFactory factory = new CarFactory();
+
+            Car myCar = factory.BuildVWPolo();
+            Car Car1 = factory.BuildVWUp();
+            Car Car2 = factory.BuildPeugeot308();
+            Car Car3 = factory.BuildHondaCivic();
+            Car Car4 = factory.BuildLexusCT200h();
+
             Console.WriteLine($"My Car is a {myCar.BrandName} {myCar.ModelName}");
+
+            Car3.GetEngine.Start();
+            Car4.GetEngine.Start();
+
+            Console.WriteLine($"My car engine status is { myCar.GetEngine.GetStatus() }");
+
         }
     }
 }
