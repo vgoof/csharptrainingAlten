@@ -5,3 +5,10 @@ C:\Users\Alten\Desktop\Mod3_SelfAssessLab\Mod3_SelfAssessLab\obj\Debug\Mod3_Self
 C:\Users\Alten\Desktop\Mod3_SelfAssessLab\Mod3_SelfAssessLab\obj\Debug\Mod3_SelfAssessLab.exe
 C:\Users\Alten\Desktop\Mod3_SelfAssessLab\Mod3_SelfAssessLab\obj\Debug\Mod3_SelfAssessLab.pdb
 C:\Users\Alten\Desktop\Mod3_SelfAssessLab\Mod3_SelfAssessLab\obj\Debug\Mod3_SelfAssessLab.csprojAssemblyReference.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\Object Oriented Programming in C# course\Mod3_SelfAssessLab\Mod3_SelfAssessLab\bin\Debug\Mod3_SelfAssessLab.exe.config
+C:\Users\mmourick\Repositories\csharptrainingAlten\Object Oriented Programming in C# course\Mod3_SelfAssessLab\Mod3_SelfAssessLab\bin\Debug\Mod3_SelfAssessLab.exe
+C:\Users\mmourick\Repositories\csharptrainingAlten\Object Oriented Programming in C# course\Mod3_SelfAssessLab\Mod3_SelfAssessLab\bin\Debug\Mod3_SelfAssessLab.pdb
+C:\Users\mmourick\Repositories\csharptrainingAlten\Object Oriented Programming in C# course\Mod3_SelfAssessLab\Mod3_SelfAssessLab\obj\Debug\Mod3_SelfAssessLab.csprojAssemblyReference.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\Object Oriented Programming in C# course\Mod3_SelfAssessLab\Mod3_SelfAssessLab\obj\Debug\Mod3_SelfAssessLab.csproj.CoreCompileInputs.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\Object Oriented Programming in C# course\Mod3_SelfAssessLab\Mod3_SelfAssessLab\obj\Debug\Mod3_SelfAssessLab.exe
+C:\Users\mmourick\Repositories\csharptrainingAlten\Object Oriented Programming in C# course\Mod3_SelfAssessLab\Mod3_SelfAssessLab\obj\Debug\Mod3_SelfAssessLab.pdb

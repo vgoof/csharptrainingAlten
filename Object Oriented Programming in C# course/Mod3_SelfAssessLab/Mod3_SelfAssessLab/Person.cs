@@ -12,7 +12,7 @@ namespace Mod3_SelfAssessLab
         protected string _firstName;
         protected string _lastName;
         protected int _age;
-        protected StreamWriter sr;
+        private StreamWriter sr;
 
         public string FirstName { get => _firstName; set => _firstName = value; }
         public string LastName { get => _lastName; set => _lastName = value; }
@@ -30,20 +30,28 @@ namespace Mod3_SelfAssessLab
 
         protected void WriteRelevantInfo(List<string> strings, string filename)
         {
-            using (sr = new StreamWriter(filename))
+            if (disposedValue)
             {
-                try
+                throw new ObjectDisposedException(this.GetType().Name);
+            }
+
+            try
+            {
+                sr = new StreamWriter(filename);
+                foreach (string s in strings)
                 {
-                    foreach (string s in strings)
-                    {
-                        sr.WriteLine(s);
-                    }
+                    sr.WriteLine(s);
                 }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-            }        
+            }
+            catch (Exception e) when (e is System.Security.SecurityException || e is IOException) 
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                sr.Close();
+            }
+                   
         }
 
         protected virtual void Dispose(bool disposing)
@@ -57,17 +65,19 @@ namespace Mod3_SelfAssessLab
 
                 // TODO: free unmanaged resources (unmanaged objects) and override a finalizer below.
                 // TODO: set large fields to null.
+                sr?.Dispose();
+                sr = null;
 
                 disposedValue = true;
             }
         }
 
         //TODO: override a finalizer only if dispose(bool disposing) above has code to free unmanaged resources.
-        // ~person()
-        //{
-        //    // do not change this code. put cleanup code in dispose(bool disposing) above.
-        //    dispose(false);
-        //}
+        ~Person()
+        {
+            // do not change this code. put cleanup code in dispose(bool disposing) above.
+            Dispose(false);
+        }
 
         // This code added to correctly implement the disposable pattern.
         public void Dispose()

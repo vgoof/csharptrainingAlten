@@ -52,6 +52,12 @@ namespace Mod3_SelfAssessLab
 
             t1.WriteRelevantInfo();
             s1.WriteRelevantInfo();
+
+            s1.Dispose();
+            s2.Dispose();
+            s3.Dispose();
+
+            t1.Dispose();
           
 
 
