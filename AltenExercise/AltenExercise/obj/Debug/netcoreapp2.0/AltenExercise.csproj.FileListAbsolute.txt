@@ -1,0 +1,11 @@
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\obj\Debug\netcoreapp2.0\AltenExercise.csprojAssemblyReference.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\obj\Debug\netcoreapp2.0\AltenExercise.csproj.CoreCompileInputs.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\obj\Debug\netcoreapp2.0\AltenExercise.AssemblyInfoInputs.cache
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\obj\Debug\netcoreapp2.0\AltenExercise.AssemblyInfo.cs
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\bin\Debug\netcoreapp2.0\AltenExercise.deps.json
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\bin\Debug\netcoreapp2.0\AltenExercise.runtimeconfig.json
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\bin\Debug\netcoreapp2.0\AltenExercise.runtimeconfig.dev.json
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\bin\Debug\netcoreapp2.0\AltenExercise.dll
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\bin\Debug\netcoreapp2.0\AltenExercise.pdb
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\obj\Debug\netcoreapp2.0\AltenExercise.dll
+C:\Users\mmourick\Repositories\csharptrainingAlten\AltenExercise\AltenExercise\obj\Debug\netcoreapp2.0\AltenExercise.pdb
