@@ -13,10 +13,11 @@ namespace AltenExercise
 
         private Engine _engine;
 
-        public Car(string brandName, string modelName)
+        public Car(string brandName, string modelName, Engine engine)
         {
             BrandName = brandName;
             ModelName = modelName;
+            _engine = engine;
         }
         
 

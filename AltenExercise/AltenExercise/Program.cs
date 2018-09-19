@@ -7,7 +7,12 @@ namespace AltenExercise
         static void Main(string[] args)
         {
 
-            Car car1 = new Car("Volkswagen", "Up!");
+            CarBuilder cb = new CarBuilder();
+
+            Car vw = cb.CreateCarWithBrandName("Volkswagen")
+                .WithModelName("Up!")
+                .InstallEngine(new Engine(120, 200))
+                .Build();
 
         }
     }
