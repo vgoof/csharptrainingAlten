@@ -9,11 +9,13 @@ namespace AltenExercise
         public double PowerInHp { get; }
         public double Torque { get; }
         public EngineStatus EngineStatus { get; } = EngineStatus.TurnedOff;
+        public EngineType EngineType { get; }
 
-        public Engine(double powerInHp, double torque)
+        public Engine(double powerInHp, double torque, EngineType engineType)
         {
             PowerInHp = powerInHp;
             Torque = torque;
+            EngineType = engineType;
         }
 
         public void Start()
@@ -25,6 +27,14 @@ namespace AltenExercise
         {
             throw new NotImplementedException();
         }
+    }
+
+    public enum EngineType
+    {
+        Petrol,
+        Diesel,
+        Electric,
+        Hybrid,
     }
 
     public enum EngineStatus
