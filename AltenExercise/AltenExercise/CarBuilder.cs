@@ -9,7 +9,8 @@ namespace AltenExercise
         private string _brandName;
         private string _modelName;
         private Engine _engine;
-        private Wheels _wheels
+        private Wheels _wheels;
+        private SpeedoMeter _speedometer;
         
 
         public CarBuilder CreateCarWithBrandName(string brandname)
@@ -36,9 +37,15 @@ namespace AltenExercise
             return this;
         }
 
+        public CarBuilder InstallSpeedometer(SpeedoMeter speedometer)
+        {
+            _speedometer = speedometer;
+            return this;
+        }
+
         public Car Build()
         {
-            return new Car(_brandName, _modelName, _engine, _wheels);
+            return new Car(_brandName, _modelName, _engine, _wheels, _speedometer);
         }
 
     }
