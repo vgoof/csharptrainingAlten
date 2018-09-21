@@ -8,7 +8,7 @@ namespace AltenExercise
     {
         public double PowerInHp { get; }
         public double Torque { get; }
-        public EngineStatus EngineStatus { get; } = EngineStatus.TurnedOff;
+        public EngineStatus EngineStatus { get; private set; } = EngineStatus.TurnedOff;
         public EngineType EngineType { get; }
 
         public Engine(double powerInHp, double torque, EngineType engineType)
@@ -20,12 +20,26 @@ namespace AltenExercise
 
         public void Start()
         {
-            throw new NotImplementedException();
+            if(EngineStatus == EngineStatus.TurnedOff)
+            {
+                EngineStatus = EngineStatus.Running;
+            }
+            else
+            {
+                Console.WriteLine("Can't start engine.");
+            }
         }
 
         public void Stop()
         {
-            throw new NotImplementedException();
+            if(EngineStatus == EngineStatus.Running)
+            {
+                EngineStatus = EngineStatus.TurnedOff;
+            }
+            else
+            {
+                Console.WriteLine("Can't stop engine.");
+            }
         }
     }
 

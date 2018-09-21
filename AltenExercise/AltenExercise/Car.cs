@@ -4,12 +4,12 @@ using System.Text;
 
 namespace AltenExercise
 {
-    class Car
+    class Car : IVehicleWithEngine
     {
 
         public string BrandName { get; }
         public string ModelName { get; }
-
+        public double CurrentSpeed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         private Engine _engine;
 
@@ -19,8 +19,10 @@ namespace AltenExercise
             ModelName = modelName;
             _engine = engine;
         }
-        
 
-        
+        public void StartEngine()
+        {
+            _engine.Start();
+        }
     }
 }
