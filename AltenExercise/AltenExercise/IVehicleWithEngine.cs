@@ -7,5 +7,6 @@ namespace AltenExercise
     interface IVehicleWithEngine : IVehicle
     {
         void StartEngine();
+        void StopEngine();
     }
 }
