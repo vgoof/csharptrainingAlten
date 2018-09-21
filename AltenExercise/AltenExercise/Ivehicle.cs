@@ -6,6 +6,6 @@ namespace AltenExercise
 {
     interface IVehicle
     {
-        double CurrentSpeed { get;  set; }
+        double CurrentSpeed { get; }
     }
 }
