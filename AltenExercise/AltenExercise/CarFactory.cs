@@ -16,30 +16,35 @@ namespace AltenExercise
                     .CreateCarWithBrandName("Volkswagen")
                     .WithModelName("Up!")
                     .InstallEngine(new Engine(59, 95, EngineType.Petrol))
+                    .AddWheels(new Wheels(12))
                     .Build();
                 case VehicleType.Peugeot308:
                     return new CarBuilder()
                     .CreateCarWithBrandName("Peugeot")
                     .WithModelName("308")
                     .InstallEngine(new Engine(128, 225, EngineType.Petrol))
+                    .AddWheels(new Wheels(11))
                     .Build();
                 case VehicleType.FordFocus:
                    return new CarBuilder()
                     .CreateCarWithBrandName("Ford")
                     .WithModelName("Focus")
                     .InstallEngine(new Engine(123, 201, EngineType.Diesel))
+                    .AddWheels(new Wheels(13))
                     .Build();
                 case VehicleType.HondaCivic:
                    return new CarBuilder()
                    .CreateCarWithBrandName("Honda")
                    .WithModelName("Civic")
                    .InstallEngine(new Engine(90, 130, EngineType.Hybrid))
+                   .AddWheels(new Wheels(14))
                    .Build();
                 case VehicleType.LexusCT200h:
                     return new CarBuilder()
                     .CreateCarWithBrandName("Lexus")
                     .WithModelName("CT200h")
                     .InstallEngine(new Engine(125, 210, EngineType.Hybrid))
+                    .AddWheels(new Wheels(15))
                     .Build();
                 default:
                     return new CarBuilder()
