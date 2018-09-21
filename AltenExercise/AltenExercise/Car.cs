@@ -4,13 +4,19 @@ using System.Text;
 
 namespace AltenExercise
 {
-    class Car : IVehicleWithEngine
     class Car : IVehicleWithEngine, IDisposable
     {
 
         public string BrandName { get; }
         public string ModelName { get; }
-        public double CurrentSpeed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public EngineStatus EngineStatus
+        {
+            get { return _engine?.EngineStatus ?? EngineStatus.Missing; }
+        }
+        public double CurrentSpeed
+        {
+            get { return _speedometer?.GetCurrentSpeed() ?? -1; }
+        }
 
         private Engine _engine;
         private Wheels _wheels;
@@ -27,7 +33,14 @@ namespace AltenExercise
 
         public void StartEngine()
         {
-            _engine.Start();
+            _engine?.Start();
+        }
+
+        public void StopEngine()
+        {
+            _engine?.Stop();
+        }
+
         #region IDisposable Support
         private bool disposedValue = false; // To detect redundant calls
 

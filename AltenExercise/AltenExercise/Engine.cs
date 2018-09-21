@@ -57,6 +57,7 @@ namespace AltenExercise
         Starting,
         TurnedOff,
         Dead,
-        InTheShop
+        InTheShop,
+        Missing
     }
 }
