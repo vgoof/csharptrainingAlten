@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AltenExercise.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -18,11 +19,11 @@ namespace AltenExercise
             get { return _speedometer?.GetCurrentSpeed() ?? -1; }
         }
 
-        private Engine _engine;
+        private ICarEngine _engine;
         private Wheels _wheels;
         private SpeedoMeter _speedometer;
 
-        public Car(string brandName, string modelName, Engine engine, Wheels wheels, SpeedoMeter speedometer)
+        public Car(string brandName, string modelName, ICarEngine engine, Wheels wheels, SpeedoMeter speedometer)
         {
             BrandName = brandName;
             ModelName = modelName;

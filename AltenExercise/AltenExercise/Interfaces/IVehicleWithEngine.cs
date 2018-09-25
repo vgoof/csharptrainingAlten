@@ -8,5 +8,6 @@ namespace AltenExercise
     {
         void StartEngine();
         void StopEngine();
+        EngineStatus EngineStatus { get; }
     }
 }

@@ -19,6 +19,16 @@ namespace AltenExercise
 
 
 
+            honda.StartEngine();
+
+            Console.WriteLine($"Honda engine status : {honda.EngineStatus}");
+
+            Console.WriteLine($"Lexus engine status : {lexus.EngineStatus}");
+
+            Car car = new CarBuilder().Build();
+            Console.WriteLine(car.EngineStatus);
+            car.StartEngine();
+
 
 
         }

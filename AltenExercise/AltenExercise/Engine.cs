@@ -4,18 +4,16 @@ using System.Text;
 
 namespace AltenExercise
 {
-    class Engine
+    abstract class Engine
     {
         public double PowerInHp { get; }
         public double Torque { get; }
         public EngineStatus EngineStatus { get; private set; } = EngineStatus.TurnedOff;
-        public EngineType EngineType { get; }
 
-        public Engine(double powerInHp, double torque, EngineType engineType)
+        public Engine(double powerInHp, double torque)
         {
             PowerInHp = powerInHp;
             Torque = torque;
-            EngineType = engineType;
         }
 
         public void Start()
@@ -43,12 +41,12 @@ namespace AltenExercise
         }
     }
 
-    public enum EngineType
+    public enum FuelType
     {
-        Petrol,
+        Kerosine,
         Diesel,
-        Electric,
-        Hybrid,
+        Petrol,
+        Electricity
     }
 
     public enum EngineStatus

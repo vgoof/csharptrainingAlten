@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AltenExercise.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,7 +9,7 @@ namespace AltenExercise
     {
         private string _brandName;
         private string _modelName;
-        private Engine _engine;
+        private ICarEngine _engine;
         private Wheels _wheels;
         private SpeedoMeter _speedometer;
         
@@ -25,7 +26,7 @@ namespace AltenExercise
             return this;
         }
 
-        public CarBuilder InstallEngine(Engine engine)
+        public CarBuilder InstallEngine(ICarEngine engine)
         {
             _engine = engine;
             return this;

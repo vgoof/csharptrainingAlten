@@ -15,7 +15,7 @@ namespace AltenExercise
                     return new CarBuilder()
                     .CreateCarWithBrandName("Volkswagen")
                     .WithModelName("Up!")
-                    .InstallEngine(new Engine(59, 95, EngineType.Petrol))
+                    .InstallEngine(new PetrolEngine(59, 95))
                     .AddWheels(new Wheels(12))
                     .InstallSpeedometer(new SpeedoMeter())
                     .Build();
@@ -23,7 +23,7 @@ namespace AltenExercise
                     return new CarBuilder()
                     .CreateCarWithBrandName("Peugeot")
                     .WithModelName("308")
-                    .InstallEngine(new Engine(128, 225, EngineType.Petrol))
+                    .InstallEngine(new PetrolEngine(128, 225))
                     .AddWheels(new Wheels(11))
                     .InstallSpeedometer(new SpeedoMeter())
                     .Build();
@@ -31,7 +31,7 @@ namespace AltenExercise
                    return new CarBuilder()
                     .CreateCarWithBrandName("Ford")
                     .WithModelName("Focus")
-                    .InstallEngine(new Engine(123, 201, EngineType.Diesel))
+                    .InstallEngine(new DieselEngine(123, 201))
                     .AddWheels(new Wheels(13))
                     .InstallSpeedometer(new SpeedoMeter())
                     .Build();
@@ -39,7 +39,7 @@ namespace AltenExercise
                    return new CarBuilder()
                    .CreateCarWithBrandName("Honda")
                    .WithModelName("Civic")
-                   .InstallEngine(new Engine(90, 130, EngineType.Hybrid))
+                   .InstallEngine(new HybridEngine(90, 130))
                    .AddWheels(new Wheels(14))
                    .InstallSpeedometer(new SpeedoMeter())
                    .Build();
@@ -47,7 +47,7 @@ namespace AltenExercise
                     return new CarBuilder()
                     .CreateCarWithBrandName("Lexus")
                     .WithModelName("CT200h")
-                    .InstallEngine(new Engine(125, 210, EngineType.Hybrid))
+                    .InstallEngine(new HybridEngine(125, 210))
                     .AddWheels(new Wheels(15))
                     .InstallSpeedometer(new SpeedoMeter())
                     .Build();
