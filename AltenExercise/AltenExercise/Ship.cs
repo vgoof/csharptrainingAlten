@@ -11,6 +11,8 @@ namespace AltenExercise
 
         public EngineStatus EngineStatus => throw new NotImplementedException();
 
+        public FuelType FuelType => _engine?.FuelType ?? FuelType.Unknown;
+
         private IShipEngine _engine;
 
         public Ship(IShipEngine engine)

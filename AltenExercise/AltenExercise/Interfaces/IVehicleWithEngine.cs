@@ -9,5 +9,6 @@ namespace AltenExercise
         void StartEngine();
         void StopEngine();
         EngineStatus EngineStatus { get; }
+        FuelType FuelType { get; }
     }
 }

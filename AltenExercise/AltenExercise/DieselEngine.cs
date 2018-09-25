@@ -13,6 +13,8 @@ namespace AltenExercise
 
         public double FuelLevel => throw new NotImplementedException();
 
+        public FuelType FuelType => FuelType.Diesel;
+
         public void AddFuel(double amount, FuelType fuelType)
         {
             throw new NotImplementedException();

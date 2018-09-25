@@ -32,5 +32,10 @@ namespace AltenExercise
             //foreach (T v in vehicles.Where(v => v is T))
             //    yield return v;
         }
+
+        public IEnumerable<IVehicleWithEngine> GetAllVehiclesWithPetrolEngine()
+        {
+            return GetAllOfType<IVehicleWithEngine>().Where(n => n.FuelType == FuelType.Petrol);
+        }
     }
 }

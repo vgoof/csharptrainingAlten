@@ -64,6 +64,9 @@ namespace AltenExercise
             get { return _speedometer?.GetCurrentSpeed() ?? -1; }
         }
 
+        public FuelType FuelType => _engine?.FuelType ?? FuelType.Unknown;
+
+
         private ICarEngine _engine;
         private Wheels _wheels;
         private SpeedoMeter _speedometer;
@@ -75,6 +78,7 @@ namespace AltenExercise
             _engine = engine;
             _wheels = wheels;
             _speedometer = speedometer;
+            //_engine.
         }
 
         public void StartEngine()

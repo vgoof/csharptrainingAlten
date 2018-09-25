@@ -6,6 +6,7 @@ namespace AltenExercise.Interfaces
 {
     interface IEngine
     {
+        FuelType FuelType { get;  }
         void Start();
         void Stop();
 

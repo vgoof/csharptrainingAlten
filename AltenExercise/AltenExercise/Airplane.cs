@@ -11,6 +11,8 @@ namespace AltenExercise
 
         public EngineStatus EngineStatus => throw new NotImplementedException();
 
+        public FuelType FuelType => _engine?.FuelType ?? FuelType.Unknown;
+
         private IAirplaneEngine _engine;
 
         public Airplane(IAirplaneEngine engine)

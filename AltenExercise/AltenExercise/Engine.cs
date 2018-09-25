@@ -46,7 +46,8 @@ namespace AltenExercise
         Kerosine,
         Diesel,
         Petrol,
-        Electricity
+        Electricity,
+        Unknown
     }
 
     public enum EngineStatus
