@@ -25,12 +25,29 @@ namespace AltenExercise
 
             Console.WriteLine($"Lexus engine status : {lexus.EngineStatus}");
 
-            Car car = new CarBuilder().Build();
+            Car car = new Car.CarBuilder().Build();
             Console.WriteLine(car.EngineStatus);
             car.StartEngine();
 
 
+            VehicleCollection v = new VehicleCollection();
 
+            v.Add(vw);
+            v.Add(peugeot);
+            v.Add(ford);
+            v.Add(honda);
+            v.Add(lexus);
+
+            v.Add(new Bicycle());
+            var vehiclesWithEngines = v.GetAllVehiclesWithEngines();
+
+            foreach(var vwe in vehiclesWithEngines)
+            {
+                Console.WriteLine(vwe);
+            }
+
+            Console.WriteLine(String.Join(", ", vehiclesWithEngines));
+            Console.WriteLine(String.Join(", ", v.GetAllVehicles()));
         }
     }
 }
