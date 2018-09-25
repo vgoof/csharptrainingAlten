@@ -30,24 +30,17 @@ namespace AltenExercise
             car.StartEngine();
 
 
-            VehicleCollection v = new VehicleCollection();
-
-            v.Add(vw);
-            v.Add(peugeot);
-            v.Add(ford);
-            v.Add(honda);
-            v.Add(lexus);
-
-            v.Add(new Bicycle());
-            var vehiclesWithEngines = v.GetAllVehiclesWithEngines();
-
-            foreach(var vwe in vehiclesWithEngines)
+            VehicleCollection v = new VehicleCollection
             {
-                Console.WriteLine(vwe);
-            }
+                vw,
+                peugeot,
+                ford,
+                honda,
+                lexus,
+                new Bicycle()
+            };
 
-            Console.WriteLine(String.Join(", ", vehiclesWithEngines));
-            Console.WriteLine(String.Join(", ", v.GetAllVehicles()));
+            Console.WriteLine(string.Join(", ", v.GetAllOfType<Bicycle>()));
         }
     }
 }

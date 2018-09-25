@@ -26,43 +26,11 @@ namespace AltenExercise
             return vehicles.GetEnumerator();
         }
 
-        public IEnumerable<IVehicle> GetAllVehicles()
+        public IEnumerable<T> GetAllOfType<T>()
         {
-            return vehicles.ToArray();
+            return vehicles.OfType<T>();
+            //foreach (T v in vehicles.Where(v => v is T))
+            //    yield return v;
         }
-
-        public IEnumerable<IVehicleWithEngine> GetAllVehiclesWithEngines()
-        {
-            //return vehicles.OfType<IVehicleWithEngine>();
-
-            foreach(IVehicleWithEngine v in vehicles.Where(v => v is IVehicleWithEngine))
-            {
-                yield return v;
-            }
-                //
-            //IEnumerable<IVehicleWithEngine> filteredVehicles = vehicles.Where(n => n as IVehicleWithEngine);
-
-        }
-
-        public IEnumerable<Airplane> GetAllAirplanes()
-        {
-            return vehicles.OfType<Airplane>();
-        }
-
-        public IEnumerable<Car> GetAllCars()
-        {
-            return vehicles.OfType<Car>();
-        }
-
-        public IEnumerable<Bicycle> GetAllBicycles()
-        {
-            return vehicles.OfType<Bicycle>();
-        }
-
-        public IEnumerable<Ship> GetAllShips()
-        {
-            return vehicles.OfType<Ship>();
-        }
-
     }
 }
