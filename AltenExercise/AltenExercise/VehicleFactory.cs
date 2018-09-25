@@ -12,7 +12,7 @@ namespace AltenExercise
             switch (vehicleType)
             {
                 case VehicleType.VolksWagenUp:
-                    return new CarBuilder()
+                    return new Car.CarBuilder()
                     .CreateCarWithBrandName("Volkswagen")
                     .WithModelName("Up!")
                     .InstallEngine(new PetrolEngine(59, 95))
@@ -20,7 +20,7 @@ namespace AltenExercise
                     .InstallSpeedometer(new SpeedoMeter())
                     .Build();
                 case VehicleType.Peugeot308:
-                    return new CarBuilder()
+                    return new Car.CarBuilder()
                     .CreateCarWithBrandName("Peugeot")
                     .WithModelName("308")
                     .InstallEngine(new PetrolEngine(128, 225))
@@ -28,7 +28,7 @@ namespace AltenExercise
                     .InstallSpeedometer(new SpeedoMeter())
                     .Build();
                 case VehicleType.FordFocus:
-                   return new CarBuilder()
+                   return new Car.CarBuilder()
                     .CreateCarWithBrandName("Ford")
                     .WithModelName("Focus")
                     .InstallEngine(new DieselEngine(123, 201))
@@ -36,7 +36,7 @@ namespace AltenExercise
                     .InstallSpeedometer(new SpeedoMeter())
                     .Build();
                 case VehicleType.HondaCivic:
-                   return new CarBuilder()
+                   return new Car.CarBuilder()
                    .CreateCarWithBrandName("Honda")
                    .WithModelName("Civic")
                    .InstallEngine(new HybridEngine(90, 130))
@@ -44,7 +44,7 @@ namespace AltenExercise
                    .InstallSpeedometer(new SpeedoMeter())
                    .Build();
                 case VehicleType.LexusCT200h:
-                    return new CarBuilder()
+                    return new Car.CarBuilder()
                     .CreateCarWithBrandName("Lexus")
                     .WithModelName("CT200h")
                     .InstallEngine(new HybridEngine(125, 210))
@@ -52,7 +52,7 @@ namespace AltenExercise
                     .InstallSpeedometer(new SpeedoMeter())
                     .Build();
                 default:
-                    return new CarBuilder()
+                    return new Car.CarBuilder()
                         .Build();
             }
         }
