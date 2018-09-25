@@ -37,5 +37,25 @@ namespace AltenExercise
         {
             return GetAllOfType<IVehicleWithEngine>().Where(n => n.FuelType == FuelType.Petrol);
         }
+
+        public IEnumerable<IVehicleWithEngine> GetAllVehiclesWithEngineRunning()
+        {
+            return GetAllOfType<IVehicleWithEngine>().Where(n => n.EngineStatus == EngineStatus.Running);
+        }
+
+        public IEnumerable<Car> GetAllCarsWithEngineRunning()
+        {
+            return GetAllOfType<Car>().Where(n => n.EngineStatus == EngineStatus.Running);
+        }
+
+        public IEnumerable<Airplane> GetAllAirplanesWithEngineRunning()
+        {
+            return GetAllOfType<Airplane>().Where(n => n.EngineStatus == EngineStatus.Running);
+        }
+
+        public IEnumerable<Ship> GetAllShipsWithEngineRunning()
+        {
+            return GetAllOfType<Ship>().Where(n => n.EngineStatus == EngineStatus.Running);
+        }
     }
 }
