@@ -7,5 +7,8 @@ namespace AltenExercise
     interface IVehicle
     {
         double CurrentSpeed { get; }
+        Person[] GetPassengers();
+        void EnterVehicle(Person p);
+        void ExitVehicle(Person p);
     }
 }

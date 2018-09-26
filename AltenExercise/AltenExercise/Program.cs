@@ -41,6 +41,16 @@ namespace AltenExercise
             };
 
             Console.WriteLine(string.Join(", ", v.GetAllOfType<Bicycle>()));
+
+            Person p = new Person("John Doe");
+            vw.EnterVehicle(p, true);
+            vw.StartEngine();
+            vw.StopEngine();
+            vw.ExitVehicle(p);
+            vw.StartEngine();
+            vw.EnterVehicle(p);
+            p.AccelerateVehicle();
+        
         }
     }
 }

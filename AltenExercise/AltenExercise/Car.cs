@@ -66,10 +66,16 @@ namespace AltenExercise
 
         public FuelType FuelType => _engine?.FuelType ?? FuelType.Unknown;
 
+        public delegate void EngineStartedEventHandler(object source, EventArgs args);
+        public event EngineStartedEventHandler EngineStarted;
+
+        public delegate void EngineStoppedEventHandler(object source, EventArgs args);
+        public event EngineStoppedEventHandler EngineStopped;
 
         private ICarEngine _engine;
         private Wheels _wheels;
         private SpeedoMeter _speedometer;
+        private List<Person> _passengers = new List<Person>();
 
         private Car(string brandName, string modelName, ICarEngine engine, Wheels wheels, SpeedoMeter speedometer)
         {
@@ -84,11 +90,54 @@ namespace AltenExercise
         public void StartEngine()
         {
             _engine?.Start();
+            OnEngineStarted();
         }
 
         public void StopEngine()
         {
             _engine?.Stop();
+            OnEngineStopped();
+            
+        }
+
+        public void EnterVehicle(Person p)
+        {
+            _passengers.Add(p);
+            p.GetInVehicle(this);
+        }
+
+        public void EnterVehicle(Person p, bool notify)
+        {
+            if(notify)
+            {
+                EngineStarted += p.OnEngineStarted;
+                EngineStopped += p.OnEngineStopped;
+            }
+            EnterVehicle(p);
+        }
+
+        public void ExitVehicle(Person p)
+        {
+            _passengers.Remove(p);
+            EngineStarted -= p.OnEngineStarted;
+            EngineStopped -= p.OnEngineStopped;
+            p.GetOutOfVehicle();
+        }
+
+
+        public Person[] GetPassengers()
+        {
+            return _passengers.ToArray();
+        }
+
+        protected virtual void OnEngineStarted()
+        {
+            EngineStarted?.Invoke(this, EventArgs.Empty);
+        }
+
+        protected virtual void OnEngineStopped()
+        {
+            EngineStopped?.Invoke(this, EventArgs.Empty);
         }
 
         #region IDisposable Support
@@ -104,6 +153,7 @@ namespace AltenExercise
                     _engine = null;
                     _wheels = null;
                     _speedometer = null;
+                    _passengers = null;
                 }
 
                 // TODO: free unmanaged resources (unmanaged objects) and override a finalizer below.
